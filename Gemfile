@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 gem 'rails', '4.1.0'
 gem 'bootstrap-sass', '2.3.2.0'
-gem 'bcrypt'
+gem 'bcrypt-ruby', '3.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 group :development, :test do
 	gem 'rspec-rails', '2.13.1'
@@ -19,6 +19,7 @@ group :test do
 gem 'selenium-webdriver', '2.35.1'
 gem 'capybara', '2.1.0'
 gem 'minitest'
+gem 'factory_girl_rails'
 end
 # Use sqlite3 as the database for Active Record
 
